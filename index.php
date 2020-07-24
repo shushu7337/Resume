@@ -243,7 +243,7 @@
                 </table>
               </div>
             </div>
-            <div class="col-md-4 bbx">
+            <div class="col-lg-4 bbx">
               <div class="service-item">
                 <i class="fas fa-tools fa-4x icon fass"></i>
                 <div class="third-service-icon service-icon"></div>
