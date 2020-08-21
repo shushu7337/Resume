@@ -6,7 +6,7 @@ $db=new DB($table);
 $row=$db->find($_POST['id']);
 if(!empty($_FILES['img']['tmp_name'])){
     $filename=$_FILES['img']['name'];
-    move_uploaded_file($_FILES['img']['tmp_name'],'../img/'.$filename);
+    move_uploaded_file($_FILES['img']['tmp_name'],'../pic/'.$filename);
     $row['img']=$filename;
     $db->save($row);
 }
