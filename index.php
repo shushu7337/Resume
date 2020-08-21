@@ -66,10 +66,9 @@
               $total=new DB('res_profile');
               $profile=$total->find(1);
             ?>
-            <h4 class="name"><?=$profile['name'];?></h4>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
-                <li><a href="#section0"></a></li>
+                <li><a href="#section0" style="color:#121416"><?=$profile['name'];?></a></li>
                 <li><a href="#section1">About</a></li>
                 <li><a href="#section2">Experience</a></li>
                 <li><a href="#section3">Portfolio</a></li>
